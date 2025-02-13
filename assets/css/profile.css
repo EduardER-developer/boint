@@ -1,0 +1,73 @@
+.date,
+.package,
+.telephone {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.date {
+    margin-top: 10px;
+}
+
+.name {
+    margin-top: 50px;
+}
+
+.btn-pay {
+    background-color: #55BC15;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+
+.payed {
+    opacity: 0.75;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.name h3 {
+    font-size: 24px;
+    margin-bottom: 2px;
+    font-weight: 500;
+    opacity: 0.7;
+}
+
+main .container {
+    display: flex;
+}
+
+.right-profile {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+th {
+    background-color: #d2d2d2;
+}
+
+td {
+    background-color: #f1f1f1;
+}
+
+th, td {
+    padding: 5px 85px;
+    font-size: 24px;
+}
+
+th {
+    font-size: 20px;
+}
+
+td {
+    font-size: 14px;
+}

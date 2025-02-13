@@ -1,0 +1,83 @@
+.banner {
+    margin-top: 20px;
+}
+
+main .container .left-block-settings {
+    width: 400px;
+}
+
+.company {
+    display: flex;
+    gap: 5px;
+}
+
+.company p {
+    font-size: 18px;
+}
+
+.first-set {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+    gap: 5px;
+}
+
+.first-set h2 {
+    font-size: 32px;
+}
+
+main .container {
+    display: flex;
+}
+
+.search-complete {
+    font-size: 32px;
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+}
+
+.cards {
+    /* display: flex;
+    gap: 20px;
+    flex-wrap: wrap; */
+    columns: 3;
+    margin-top: 25px;
+    
+}
+
+.card-prod {
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    height: 670px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card-prod h6 {
+    font-size: 26px;
+}
+
+.card-prod p {
+    font-size: 22px;
+}
+
+.card-prod a {
+    border: 1px solid #324D90;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #324D90;
+    border-radius: 10px;
+    align-items: center;
+    font-size: 24px;
+    padding: 7px 70px;
+    width: fit-content;
+}
