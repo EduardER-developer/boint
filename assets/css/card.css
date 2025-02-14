@@ -11,7 +11,7 @@
 .left-prod {
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .right-prod {
@@ -52,6 +52,13 @@
     width: fit-content;
     text-decoration: none;
     margin-bottom: 83px;
+    transition: 0.5s;
+}
+
+.right-prod .btn-buy:hover {
+    background-color: #fff;
+    color: #314B8C;
+    box-shadow: 1px 1px 1px 1px #000;
 }
 
 .right-prod h4 {
@@ -75,10 +82,12 @@ h6 {
     padding: 20px 0px;
     background-color: #EAEAEA;
 }
+
 .navigation-line {
     display: flex;
     gap: 140px;
     justify-content: center;
+    cursor: pointer;
 }
 
 .navigation-line h2 {
@@ -86,12 +95,16 @@ h6 {
     color: rgba(0, 0, 0, 0.75);
 }
 
+.navigation-line h2:hover {
+    color: #000;
+}
+
 .navigation-line h3 {
     font-size: 28px;
     color: #000;
 }
 
-.container2 h1{
+.container2 h1 {
     color: #701D68;
     font-size: 28px;
     font-weight: bold;

@@ -1,4 +1,4 @@
-input[type=text],
+main input[type=text],
 select {
     width: 100%;
     padding: 12px 20px;

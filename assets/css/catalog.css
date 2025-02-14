@@ -33,11 +33,13 @@ main .container {
 
 .search-complete {
     font-size: 32px;
+    margin-top: 20px;
 }
 
 .filter {
     display: flex;
     align-items: center;
+    gap: 2px;
 }
 
 .cards {
@@ -46,7 +48,11 @@ main .container {
     flex-wrap: wrap; */
     columns: 3;
     margin-top: 25px;
-    
+
+}
+
+.right-block-catalog {
+    margin-left: 20px;
 }
 
 .card-prod {
@@ -59,6 +65,7 @@ main .container {
     padding: 20px;
     border-radius: 10px;
 }
+
 
 .card-prod h6 {
     font-size: 26px;
@@ -80,4 +87,9 @@ main .container {
     font-size: 24px;
     padding: 7px 70px;
     width: fit-content;
+}
+
+.card-prod a:hover {
+    background-color: #324D90;
+    color: #fff;
 }
